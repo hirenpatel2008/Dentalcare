@@ -1,0 +1,33 @@
+.stylish-heading {
+  font-size: 50px;
+  font-weight: 500;
+  color: #333;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+  border-bottom: 4px solid #007bff;
+  margin-bottom: 40px;
+}
+
+.stylish-heading .blue-text {
+  color: #007bff;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stylish-heading {
+  animation: fadeIn 1.2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
